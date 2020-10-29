@@ -27,4 +27,4 @@ doc = [
 include = ["sim_validator"]
 
 [tool.flit.scripts]
-sim_runner = "sim_validator.scripts.sim_validator:main"
+sim_validator = "sim_validator.scripts.sim_validator:main"

@@ -1,4 +1,4 @@
-# Developing sim_runner
+# Developing sim_validator
 
 * [Development Setup](#setup)
 * [Running Tests](#tests)
@@ -26,10 +26,10 @@ deactivate # return from virtual environment to the regular one
 
 ### Installation instructions
 
-* Clone the repository `git clone https://gitlab.cern.ch/cta-unige/sim_runner.git && cd sim_runner`
+* Clone the repository `git clone https://github.com/davidsudm/sim_validator.git && cd sim_validator`
 
 * Activate your virtual environment `source /path/to/venv/bin/activate`
-* Install the `sim_runner` package in your virtual environment `flit install --symlink` 
+* Install the `sim_validator` package in your virtual environment `flit install --symlink` 
 
 ## <a name="tests"> Running Tests
 

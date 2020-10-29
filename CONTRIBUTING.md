@@ -1,8 +1,8 @@
-# Contributing to sim_runner
+# Contributing to sim_validator
 
 :+1: First off, thanks for reading this contributing guide! :+1:
 
-Welcome to the sim_runner! Here are the guidelines we'd like you to follow:
+Welcome to the sim_validator! Here are the guidelines we'd like you to follow:
 
 #### Table Of Contents
 * [Code of Conduct](#coc)
@@ -96,7 +96,7 @@ that relates to your submission. You don't want to duplicate effort.
     git push origin my-fix-branch
     ```
 * Test your code following the [testing instructions][developers-tests].
-* In GitLab, open a merge request to `sim_runner:master`. 
+* In GitLab, open a merge request to `sim_validator:master`. 
 * If we suggest changes, then:
 
   * Make the required updates.
@@ -140,11 +140,11 @@ deleted from the central repository.
     ```
 
 [coc]:https://www.unige.ch/ethique/charter/
-[gitlab]:https://gitlab.cern.ch/cta_unige/sim_runner
-[gitlab-issues]:https://gitlab.cern.ch/cta_unige/sim_runner/issues
-[gitlab-merge-requests]:https://gitlab.cern.ch/cta-unige/sim_runner/-/merge_requests
+[gitlab]:https://gitlab.cern.ch/cta_unige/sim_validator
+[gitlab-issues]:https://gitlab.cern.ch/cta_unige/sim_validator/issues
+[gitlab-merge-requests]:https://gitlab.cern.ch/cta-unige/sim_validator/-/merge_requests
 [developers-commits]:https://chris.beams.io/posts/git-commit/
-[gitlab-new-issue]:https://gitlab.cern.ch/cta-unige/sim_runner/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=
+[gitlab-new-issue]:https://gitlab.cern.ch/cta-unige/sim_validator/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=
 [developers-setup]:DEVELOPERS.md#setup
 [developers-tests]:DEVELOPERS.md#tests
 [developers-rules]:DEVELOPERS.md#rules
