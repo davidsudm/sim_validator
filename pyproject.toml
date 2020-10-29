@@ -1,0 +1,30 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "sim_validator"
+author = "Mykhailo Dalchenko, L. David M. Miranda"
+author-email = "david.miranda@cern.ch"
+home-page = "https://github.com/davidsudm/sim_validator"
+classifiers = ["License :: OSI Approved :: BSD License"]
+requires-python=">=3.6"
+description-file="README.md"
+requires=[
+    'importlib_resources',
+    'toml',
+]
+
+[tool.flit.metadata.requires-extra]
+doc = [
+    "sphinx",
+    "sphinx_rtd_theme",
+    "recommonmark",
+    "sphinx-argparse",
+]
+
+[tool.flit.sdist]
+include = ["sim_validator"]
+
+[tool.flit.scripts]
+sim_runner = "sim_validator.scripts.sim_validator:main"
